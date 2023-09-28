@@ -68,7 +68,7 @@ public class z_Listagem {
 
 			if (opcao == 5) {
 				String corlista = JOptionPane.showInputDialog(null, "Informe a cor do carro: ");
-				String result = "Carros de cor" + corlista + "\n\n";
+				String result = "Carros de cor " + corlista + "\n\n";
 				Integer totalcorlista = 0;
 
 				for (Carro p : carros) {
